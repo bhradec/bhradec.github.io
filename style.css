@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 :root {
-    --color-foreground: #c9d1d9;
-    --color-background: #1c1b29;
-    --color-primary: #a359ff;
-    --color-primary-transprarent: #a359ffaa;
-    --color-secondary: #acb3bb;
+    --color-foreground: #7c7c7c;
+    --color-background: #ffffff;
+    --color-background-header: #f6f8fa;
+    --color-primary: #c4024c;
+    --color-primary-transprarent: #c4024caa;
 }
 
 html {
@@ -25,6 +25,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--color-background-header);
 }
 
 main ul li {
@@ -57,7 +58,7 @@ footer {
 
 #main-subtitle {
     margin-top: 0;
-    color: var(--color-secondary);
+    color: var(--color-foreground);
 }
 
 #intro {
