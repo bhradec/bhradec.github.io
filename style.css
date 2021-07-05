@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 
 :root {
-    --color-foreground: #c9d1d9;
-    --color-background: #0d1117;
-    --color-background-header: #0d1117;
+    --color-foreground: #2b2b2b;
+    --color-background: #fdfdfd;
+    --color-background-header: #fdfdfd;
     --color-primary: #7c68d0;
-    --color-primary-transprarent: #7c68d0aa;
+    --color-primary-transparent: #7c68d0aa;
 }
 
 html {
@@ -64,7 +64,7 @@ footer {
 
 #intro {
     margin: 1.953rem 0;
-    font-family: 'JetBrains Mono', 'Courier', monospace;
+    font-family: 'Oxygen Mono', monospace;
 }
 
 #main-navigation ul {
@@ -89,7 +89,7 @@ a:visited {
     color: var(--color-primary);
     text-decoration: none;
     font-weight: 600;
-    border-bottom: 3px solid var(--color-primary-transprarent);
+    border-bottom: 3px solid var(--color-primary-transparent);
 }
 
 #back-to-the-beginning {
